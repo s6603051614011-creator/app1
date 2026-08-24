@@ -1,9 +1,10 @@
 import React from 'react';
-import MessageBox from './state-func.js';
+import Effect from './effect';
 
 function App() {
   
-  return <MessageBox  />;
+  return <Effect />;
 }
 
 export default App;
+  
