@@ -1,14 +1,7 @@
-import React from 'react';
-import { userContext} from './context'
-import Header from './context-header'
-import Content from './context-content'
+import React from 'react'
+import Router3 from "./router3"
+
 
 export default function App() {
-  let [user,setUser] = React.useState()
-  return (
-    <userContext.Provider value={[user,setUser]}>
-      <Header />
-      <Content />
-    </userContext.Provider>
-  )
+  return <Router3/>
 }
